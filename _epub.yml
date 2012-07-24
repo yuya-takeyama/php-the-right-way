@@ -1,6 +1,14 @@
 epub:
-  name: "PHP: The Right Way"
+  name: "php-the-right-way"
+  title: "PHP: The Right Way"
   lang: en
   identifier: www.phptherightway.com
 
-exclude: [] # Workaround for jekyll-epub's bug
+exclude:
+  - "CNAME"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "LICENSE"
+  - "Rakefile"
+  - "README.md"
+  - "vendor"
